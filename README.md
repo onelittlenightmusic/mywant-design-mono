@@ -10,6 +10,12 @@ pick. Mono draws them in ink and paper: black and grey tiles, a hard offset
 shadow, lower-case monospace words, and red kept for the one thing that cannot
 be taken back.
 
+![Mono: a card's actions, the detail panel's, and the header pill](screenshots/overview.png)
+
+| A card's actions (Shift+Enter) | The header's control pill |
+|---|---|
+| ![Mono action menu](screenshots/menu.png) | ![Mono control pill](screenshots/pill.png) |
+
 ## Install
 
 ```sh
@@ -20,7 +26,10 @@ The GUI picks it up on its next load. No canvas extension is needed.
 
 ## Use
 
-Open **Settings → Overlay Design** and choose **Mono**. With the canvas
+Open **Settings → Overlay Design** and choose **Mono**.
+
+![Settings → Overlay Design](screenshots/settings.png)
+ With the canvas
 (mywant-guiex) installed, the same choice is also in your character's display
 settings.
 
@@ -50,5 +59,7 @@ design with `window.__mywant.registerOverlayDesign(...)`:
   written — for the browser extension and the bookmarklet, where the
   plugin's stylesheet is not loaded.
 
-See the [developer docs](https://onelittlenightmusic.github.io/mywant-gui-dev/overlays/designs)
+See the [developer docs](https://onelittlenightmusic.github.io/mywant-gui-dev/overlays/design-plugin)
+for how this plugin was developed, tested, published and installed, step by
+step, and [Designs](https://onelittlenightmusic.github.io/mywant-gui-dev/overlays/designs)
 for the `OverlayDesign` type and the tones.
